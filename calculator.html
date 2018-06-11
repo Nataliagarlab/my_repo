@@ -8,6 +8,11 @@ function cube() {
 function sine() {
  var num = document.getElementById("n2");
  num.value = Math.sine(num);
+
+function cuarta() {
+ var num = document.getElementById("n2");
+ num.value = Math.pow(num.value, 4);
+
 }
 
 </script>
@@ -22,9 +27,15 @@ Number_cube:
 Number_cube:
 <input type="text" id="n1">
  <button onclick="cube()"> x^3 </button>
+
  Number sine:
  <input type="text" id="n1">
  <button onclick="sin()"> sinx </button>
+
+
+ <input type="text" id="n2">
+ <button onclick="cuarta()"> x^4 </button>
+ 
 
  </body>
 </html>
